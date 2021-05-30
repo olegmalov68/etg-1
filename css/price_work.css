@@ -1,0 +1,100 @@
+/*Basic Options*/
+
+body {
+	font-family: "Sitka Banner";
+	margin: 0;
+}
+
+h1, h4, h5 {
+	margin: 0;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 36px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+blockquote {
+	margin: 0;
+}
+
+.container {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.title {
+	height: 100px;
+	text-align: center;
+}
+
+/*Name Options*/
+
+#header {
+	background: #fabca4;
+	height: 150px;
+}
+
+.header_inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 150px;
+}
+
+.logo {
+	width: 280px;
+	height: 100%;
+}
+
+.logotype {
+	width: 180px;
+	height: 80px;
+	background: white;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.logo_text {
+	font-size: 20px;
+	text-align: center;
+}
+
+.menu {
+	width: 1000px;
+	height: 100%;
+	margin-left: 100px;
+	margin-top: 120px;
+}
+
+.menu a {
+	color: black;
+	font-size: 24px;
+	margin: 0 35px;
+	text-decoration: none;
+	vertical-align: top;
+	transition: color .3s linear;
+}
+
+.menu a:hover {
+	color: #848484;
+}
+
+.title h1 {
+	margin-top: 5px;
+}
+
+.slider_price {
+	height: 600px;
+}

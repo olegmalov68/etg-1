@@ -1,0 +1,362 @@
+/*Basic Options*/
+
+body {
+	font-family: "Sitka Banner";
+	margin: 0;
+}
+
+h1, h4, h5 {
+	margin: 0;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 36px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+blockquote {
+	margin: 0;
+}
+
+.container {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.title {
+	height: 100px;
+	text-align: center;
+}
+
+/*Name Options*/
+
+#header_emply {
+	background: white;
+	height: 150px;
+	width: 1280px;
+}
+
+#header {
+	background: #fabca4;
+	width: 1280px;
+	height: 150px;
+	position: fixed;
+	z-index: 3;
+}
+
+.header_inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 150px;
+}
+
+.logo {
+	width: 280px;
+	height: 100%;
+}
+
+.logotype {
+	width: 180px;
+	height: 80px;
+	background: white;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.logo_text {
+	font-size: 20px;
+	text-align: center;
+}
+
+.menu {
+	width: 1000px;
+	height: 100%;
+	margin-left: 100px;
+	margin-top: 120px;
+}
+
+.menu a {
+	color: black;
+	font-size: 24px;
+	margin: 0 35px;
+	text-decoration: none;
+	vertical-align: top;
+	transition: color .3s linear;
+}
+
+.menu a:hover {
+	color: #848484;
+}
+
+#intro {
+	width: 1280px;
+	height: 600px;
+	background: url("../img/intro.jpg");
+}
+
+.intro_text {
+	width: 900px;
+	height: 200px;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	padding-top: 160px;
+}
+
+.intro_buttom {
+	text-decoration: none;
+	color: #848484;
+	padding: 10px 40px 10px 40px;
+	background: white;
+	display: inline-block;
+}
+
+#news {
+	width: 1280px;
+	height: 900px;
+}
+
+.news_block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nw_block {
+	width: 33%;
+	text-align: center;
+}
+
+.title_agenda {
+	text-align: center;
+	font-size: 30px;
+	height: 100px;
+}
+
+.agenda {
+	width: 320px;
+	height: 180px;
+	margin-left: 50px;
+}
+
+.more_info a {
+	color: #facba4;
+	text-decoration: none;
+	vertical-align: top;
+	font-size: 24px;
+}
+
+#portfolio {
+	height: 800px;
+}
+
+#slider {
+	width: 1280px;
+	height: 700px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#slider_inner {
+	width: 3840px;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+}
+
+#slider_inner img {
+	float: left;
+}
+
+#slider_inner::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*For 2 pages*/
+
+.pages_standart {
+	width: 100%;
+	height: 550px;
+}
+
+.pages_standart_inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.picture_part {
+	width: 440px;
+}
+
+.right_part {
+	width: 880px;
+	height: 500px;
+}
+
+.text_part {
+	height: 200px;
+}
+
+.text_part blockquote {
+	font-size: 36px;
+}
+
+.button2 {
+	height: 200px;
+}
+
+.spec_button {
+	padding: 20px 70px 20px 70px;
+	border-radius: 10px;
+	background: #facba4;
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	margin-left: 30%;
+}
+
+/*Name Options */
+
+.footer {
+	background: #facba4;
+	width: 1280px;
+	height: 230px;
+}
+
+.footer_inner {
+	display: flex;
+	justify-content: space-between;
+	width: 1280px;
+	height: 230px;
+}
+
+.soc_net {
+	width: 800px;
+}
+
+.soc_net_title {
+	width: 880px;
+	height: 80px;
+}
+
+.soc_net_title h4 {
+	text-align: center;
+	margin-top: 10px;
+	margin-left: -30px;
+}
+
+.contancts {
+	width: 480px;
+}
+
+.soc_logo {
+	margin-left: 45px;
+	vertical-align: top;
+}
+
+.soc_logo img {
+	margin: 0 45px;
+}
+
+.contancts_title {
+	width: 480px;
+	height: 50px;
+}
+
+.contancts_title h4 {
+	text-align: center;
+	margin-top: 10px;
+	margin-left: -30px;
+}
+
+.contanct {
+	text-align: center;
+	margin-left: -30px;
+}
+
+.copyright {
+	height: 50px;
+}
+
+.copyright h3 {
+	text-align: center;
+}
+
+/* poppup */
+
+#poppups {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.5s ease 0s;
+}
+
+#poppups:target {
+	opacity: 1;
+	visibility: visible;
+}
+
+.poppup_area {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.poppup_body {
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 10px;
+}
+
+.poppup_inner {
+	background-color: white;
+	color: #000;
+	max-width: 800px;
+	padding: 30px;
+	position: relative;
+}
+
+.poppup_close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-size: 24px;
+	color: #000;
+	text-decoration: none;
+}
+
+.poppup_title {
+	font-size: 40px;
+	margin: 0px 0px 1em 0px;
+}
+
+.poppup_content {
+
+}
+
+/* form_support puppop */
+
+
+
